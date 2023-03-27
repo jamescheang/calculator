@@ -90,6 +90,10 @@ body {
     user-select: none;
 }
 
+.c.button {
+    width: 280px;
+}
+
 .button:hover {
     opacity: 1;
 }
