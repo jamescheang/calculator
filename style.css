@@ -27,7 +27,7 @@ body {
     align-items: center;
     gap: 40px;
     flex: 1;
-    width: 25%;
+    width: 300px;
     flex: 0;
     align-self: center;
     padding: 30px;
@@ -43,15 +43,23 @@ body {
     width: 100%;
     background-color: aquamarine;
     text-align: end;
-    /* display: flex;
+    display: flex;
     flex-direction: column;
-    justify-content: end; */
-    /* position: relative; */
+    font-family: 'Orbitron', sans-serif;
+    /* justify-content: end; */
 }
 
-.history {}
+.history {
+    flex: 1 1 0;
+    padding: 8px;
+    padding-top: 16px;
+}
 
-
+.result {
+    flex: 2 1 0;
+    padding: 8px;
+    font-size: 20px;
+}
 
 .row {
     display: flex;
